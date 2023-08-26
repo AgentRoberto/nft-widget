@@ -87,12 +87,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #0a002a;
 }
 
 a {
@@ -104,4 +99,51 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.nft-container {
+  padding: 20px;
+}
+
+/** Overwrite Carousel styling **/
+.carousel {
+  width: 500px !important;
+  left: 25%;
+  top: 20px;
+  border-radius: 20px !important;
+}
+.carousel-slider{
+  border: 1px solid #ce193e;
+  filter: drop-shadow(rgb(0, 135, 255) 0px 0px 10px) !important;
+
+}
+.thumb {
+  border-radius: 50px !important;
+  margin-right: 8px !important;
+  border: 3px solid #ce183e !important;
+  padding: 0px !important;
+}
+.carousel-status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4px !important;
+  background: #ce193e !important;
+  filter: drop-shadow(rgb(0, 135, 255) 0px 0px 10px) !important;
+  padding: 10px !important;
+  font-size: 16px !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+  color: black !important;
+  font-family: monospace !important;
+}
+.carousel-slider .control-arrow {
+  top: 220px !important;
+  background: #ce183e !important;
+  font-size: 26px;
+  height: 50px;
+  border-radius: 10px !important;
+  bottom: 200px;
+  margin-top: 0;
+  width: 50px;
+  padding: 5px;
 }

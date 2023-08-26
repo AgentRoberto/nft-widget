@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@moralisweb3/evm-utils": "^2.22.5",
     "@types/node": "20.5.4",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "moralis": "^2.22.5",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "typescript": "5.1.6"
   }
 }
